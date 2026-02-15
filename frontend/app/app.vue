@@ -1,11 +1,10 @@
-<script setup>
-// Импорт глобального Tailwind CSS
-import '../assets/css/tailwind.css'
+<script setup lang="ts">
+// Tailwind CSS is automatically imported via Nuxt module
+// No need for manual import when using @nuxtjs/tailwindcss
 </script>
-
 <template>
     <div class="min-h-screen bg-slate-50 text-slate-900">
-        <NuxtRouteAnnouncer />
+        <!-- Header -->
         <header class="border-b bg-white">
             <div class="mx-auto max-w-5xl px-4 py-4 flex justify-between items-center">
                 <h1 class="text-xl font-semibold tracking-tight">
@@ -16,7 +15,10 @@ import '../assets/css/tailwind.css'
         </span>
             </div>
         </header>
+
+        <!-- Main content -->
         <main class="mx-auto max-w-5xl px-4 py-6">
+            <!-- NuxtPage отображает текущую страницу из /pages -->
             <NuxtPage />
         </main>
     </div>
