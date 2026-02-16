@@ -1,7 +1,3 @@
-## Invoice Management Demo (Laravel + Nuxt)
-
-Мінімальний, але реалістичний full‑stack модуль для роботи з інвойсами (рахунками) для бухгалтерів.
-
 ### 1. Як структуровано frontend і backend?
 
 - **Backend (Laravel 11, PHP 8.2+)**
@@ -67,8 +63,7 @@
 
 ### Запуск у Docker
 
-1. Переконайтеся, що Docker і docker-compose встановлені.
-2. З кореня проєкту виконайте:
+1. З кореня проєкту виконайте:
 
 ```bash
 docker-compose up --build
